@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A530DD901E3E9AEA00DAAA02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FC30C61E353913006CE0D2 /* Assets.xcassets */; };
 		A5FC30C01E353913006CE0D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC30BF1E353913006CE0D2 /* AppDelegate.swift */; };
 		A5FC30C21E353913006CE0D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC30C11E353913006CE0D2 /* ViewController.swift */; };
 		A5FC30C51E353913006CE0D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FC30C31E353913006CE0D2 /* Main.storyboard */; };
-		A5FC30C71E353913006CE0D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FC30C61E353913006CE0D2 /* Assets.xcassets */; };
 		A5FC30CA1E353913006CE0D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FC30C81E353913006CE0D2 /* LaunchScreen.storyboard */; };
 		A5FC30D51E353913006CE0D2 /* You_Are_Awesome_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC30D41E353913006CE0D2 /* You_Are_Awesome_Tests.swift */; };
 /* End PBXBuildFile section */
@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					A5FC30BB1E353912006CE0D2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5FEDA69Y49;
 						ProvisioningStyle = Automatic;
 					};
 					A5FC30CF1E353913006CE0D2 = {
@@ -180,7 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5FC30CA1E353913006CE0D2 /* LaunchScreen.storyboard in Resources */,
-				A5FC30C71E353913006CE0D2 /* Assets.xcassets in Resources */,
+				A530DD901E3E9AEA00DAAA02 /* Assets.xcassets in Resources */,
 				A5FC30C51E353913006CE0D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -326,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -339,7 +340,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5FEDA69Y49;
 				INFOPLIST_FILE = "You Are Awesome!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.linehan.You-Are-Awesome-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,7 +354,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5FEDA69Y49;
 				INFOPLIST_FILE = "You Are Awesome!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.linehan.You-Are-Awesome-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +411,7 @@
 				A5FC30DB1E353913006CE0D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5FC30DC1E353913006CE0D2 /* Build configuration list for PBXNativeTarget "You Are Awesome!Tests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +420,7 @@
 				A5FC30DE1E353913006CE0D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
